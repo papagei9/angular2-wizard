@@ -8,19 +8,28 @@ This is an Angular2 Form Wizard component. Just like any form wizard. You can de
 
 You can checkout the demo below and see how to use it in the next section.
 
-## Demo
+## Fork
+Backported to Bootstrap 3
+
+## Build
+Not published to npm, because it's a small fork
+```
+$ npm pack
+```
+
+## Demo (not updated)
 https://maiyaporn.github.io/angular2-wizard-demo/
 
 ## Dependencies
 - Angular2 (tested with 2.3.1)
-- Bootstrap 4
+- Bootstrap 3
 
 ## Installation
 
-After installing the above dependencies, install angular2-wizard via:
+After installing the above dependencies, copy the .tgz to your project folder and install angular2-wizard via:
 
 ```bash
-$ npm install angular2-wizard --save
+$ npm i -S angular2-wizard-0.2.2.tgz --save
 ```
 
 ## How to use the component
